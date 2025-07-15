@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    background-color: black;
+}
+body{
+    background: url('../imagens/parede-de-tijolos-realista_1284-4683.avif') no-repeat top center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+main{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    
+}
+div#tv{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url('../imagens/smart\ tv.png') no-repeat top center;
+    width: 430px;
+    height: 325px;
+}
+div#botoes{
+text-align: right;
+}
+div#botoes img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px black;
+    box-sizing: border-box;
+}
+iframe#tela{
+    background-size: cover;
+    position: absolute;
+    top: 43px;
+    left: 9px;
+    width: 408px;
+    height: 225px;
+}
+div#botoes img:hover{
+    border: 2px solid darkgray;
+    box-shadow: 2px 2px 5px black;
+    transform: translate(-2px, -2px);
+    background-color: red;
+    transition: transform 0.3s;
+}
